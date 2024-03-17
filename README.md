@@ -12,7 +12,7 @@ else:
     print(f"El numero {x} NO corresponde al codigo ASCII de una vocal minúscula")
 ```
 
-##2.Dada una cadena de longitud 1, determine si el código ASCII de primera letra de la cadena es par o no.
+## 2.Dada una cadena de longitud 1, determine si el código ASCII de primera letra de la cadena es par o no.
 ```
 x = str(input("Ingresa un caracter"))
 y = x[0]
@@ -22,7 +22,7 @@ else:
     print("El codigo ASCII de la primera letra no es par")
 ```
 
-##3.Dado un carácter, construya un programa en Python para determinar si el carácter es un dígito o no.
+## 3.Dado un carácter, construya un programa en Python para determinar si el carácter es un dígito o no.
 ```
 x = input("Ingresa un unico digito:")
 if x in ("1", "2", "3", "4", "5", "6", "7", "8", "9", "0"):
@@ -31,7 +31,7 @@ else:
     print("No es un digito")
 ```
 
-##4.Dado un número real x, construya un programa que permita determinar si el número es positivo, negativo o cero. Para cada caso de debe imprimir el texto que se especifica a continuación:
+## 4.Dado un número real x, construya un programa que permita determinar si el número es positivo, negativo o cero. Para cada caso de debe imprimir el texto que se especifica a continuación:
 ```
 x = float(input("Ingrese un numero real"))
 if x < 0:
@@ -42,7 +42,7 @@ else:
     print("El número x es el neutro para la suma")
 ```
 
-##5. Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.
+## 5. Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.
 
 ```
 centroX = float(input("Ingrese la coordenada del centro en x: "))
@@ -59,7 +59,7 @@ else:
     print("El punto no se encuentra dentro del circulo")
 ```
 
-##6. Dadas tres longitudes positivas, determinar si con esas longitudes se puede construir un triángulo.
+## 6. Dadas tres longitudes positivas, determinar si con esas longitudes se puede construir un triángulo.
 
 ```
 c1= int(input("Ingrese la longitud del primer cateto "))
